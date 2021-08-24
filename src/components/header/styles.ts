@@ -3,29 +3,28 @@ import styled from "styled-components";
 export const Header = styled.div`
     position: fixed;
     width: 100%;
-    height: 20%;
+    height: 22%;
     padding: 32px 24px;
-  /* border-radius: 30px; */
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-top: -2%;
+    margin-top: -4%;
     background: linear-gradient(45deg, #19A0DA, #039B89, #2DFE81);
-    /* background-size: 300%, 300%;
+    background-size: 300%, 300%;
     animation: colors 15s ease infinite;
     @keyframes colors {
-    0% {
-        background-position: 0%, 50%;
+        0% {
+            background-position: 0%, 50%;
+        }
+        50% {
+            background-position: 100%, 50%;
+        }
+        100% {
+            background-position: 0%, 50%;
+        }
     }
-    50% {
-        background-position: 100%, 50%;
-    }
-
-    100% {
-        background-position: 0%, 50%;
-    }
-  } */
 
     img {
         max-width:70px;
@@ -55,5 +54,4 @@ export const Header = styled.div`
         margin-left: 64%;
         margin-top: 0%;
     }
-
 `
