@@ -1,18 +1,6 @@
-import React, { useState, useEffect } from "react";
-import { Container, Label, SelectorDiv } from './styles';
-
+import { Container, Label } from './styles';
 import Headers from "../../components/header";
-
-import api from '../../services/api'
-import Button from "../../components/Button";
 import SelectorPoducts from '../../components/itens'
-interface Products {
-  name: string;
-  price: number;
-  category: string;
-  description: string;
-  photo_url: string
-}
 
 const ListPoducts = () => {
   return (

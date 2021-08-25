@@ -2,29 +2,38 @@ import styled from "styled-components";
 
 export const SelectorDiv = styled.label`
 position: relative;
-width: 70%;
-height: 300px;
+width: 60%;
+height: 500px;
 border-radius: 10px;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
 align-items: center;
 margin-top: 3%;
-margin-left: 14%;
-border: solid 0.5x; 
+margin-left: 20%;
+border: solid 0.5x;
 border-color: #A9ABAE;
 box-shadow: 2.5px 5px 2.5px 2.5px #A9ABAE;
-.Name {
+.Category {
   position: relative;
   max-width: 60%;
   position: relative;
   color: #032C3E;
   margin-top: 1%;
+  right: 35%;
+}
+.Name {
+  position: relative;
+  max-width: 60%;
+  position: relative;
+  color: #032C3E;
+  margin-top: -4%;
+  font-size: 30px;
 }
 .Price {
   position: relative;
   color: #008A75;
-  top: -70%;
+  top: -60%;
   left: 40%;
 }
 img {
@@ -52,5 +61,11 @@ button {
     background: #2EFE69;
   }
 }
-
+.Description {
+  max-width: 60%;
+  position: relative;
+  color: #008A75;
+  top: -5%;
+  left: 0%;
+}
 `
