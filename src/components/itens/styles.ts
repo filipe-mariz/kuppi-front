@@ -19,6 +19,10 @@ box-shadow: 2.5px 5px 2.5px 2.5px #A9ABAE;
   color: #032C3E;
   margin-top: 20px;
 }
+.Price {
+  color: #022B0E;
+  margin-top: -100px;
+}
 img {
   max-width:170px;
   max-height:150px;
