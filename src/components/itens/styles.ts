@@ -1,28 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-min-height: inherit;
-background: #fffff;
-margin-top: 40px;
-min-height: 100%;
-width: 100%;
-`
-
-export const Label = styled.div`
-h1 {
-  text-align: left;
-  font-weight: 600;
-  font-size: 150%;
-  line-height: 24px;
-  color: #039B89;
-  margin-left: 6%;
-  margin-top: 10%;
-}
-`
-export const SelectorButton = styled.label`
+export const SelectorDiv = styled.label`
 position: fixed;
 width: 15%;
 height: 50%;
@@ -37,10 +15,13 @@ margin-left: 7%;
 border: solid 0.5x;
 border-color: #A9ABAE;
 box-shadow: 2.5px 5px 2.5px 2.5px #A9ABAE;
-background: #FFFFFF/* linear-gradient(0deg, #00B3FF,  #FFFFFF, #FFFFFF); */;
 .Name {
   color: #032C3E;
   margin-top: 20px;
+}
+.Price {
+  color: #022B0E;
+  margin-top: -100px;
 }
 img {
   max-width:170px;
@@ -52,12 +33,18 @@ img {
   border-radius: 10px;
 }
 button {
-  width: 90px;
+  width: 150px;
   height: 50px;
   margin-top: -60%;
   background: #ED3237;
   color: white;
   border: none;
   border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px #A9ABAE;
+  &:hover,
+  &:active {
+    background: #FA8285;
+  }
 }
+
 `
