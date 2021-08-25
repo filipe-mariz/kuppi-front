@@ -1,11 +1,6 @@
-import dotenv from 'dotenv'
+import { useState, useEffect } from 'react';
 import { SelectorDiv } from './styles';
 import Button from '../Button';
-import { useState } from 'react';
-
-import Modal from '../modals/ProductsModal';
-import { useEffect } from 'react';
-
 import api from '../../services/api';
 
 interface Products {
@@ -17,7 +12,6 @@ interface Products {
 }
 
 const SelectorPoducts = () => {
-  const [displayModal, setDisplayModal] = useState(false);
   const [data, setData] = useState<Products[]>([])
 
   const handleGettingPatientsData = async () => {
@@ -41,12 +35,12 @@ const SelectorPoducts = () => {
       {data.map((product) => {
         return (
           <SelectorDiv>
+            <label className="Category">{product.category}</label>
             <label className="Name">{product.name}</label>
             <img className="kuppiImage" src={product.photo_url} alt="kuppi" />
-            <label className="Price">R${product.price}</label>
-            <Button isSecondary={false} onClick={() => setDisplayModal(true)}>
-              Detalhes
-            </Button>
+            <label className="Price">R$ {product.price}</label>
+            <label className="Description">Descrição do produto: {product.description}</label>
+            <Button isSecondary={false} onClick={() => (true)}>Comprar</Button>
           </SelectorDiv>
         )
       })}
