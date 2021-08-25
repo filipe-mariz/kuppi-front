@@ -19,7 +19,7 @@ h1 {
   line-height: 24px;
   color: #039B89;
   margin-left: 6%;
-  margin-top: 1%;
+  margin-top: 10%;
 }
 `
 export const SelectorButton = styled.label`

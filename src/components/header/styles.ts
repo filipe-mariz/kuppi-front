@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Header = styled.div`
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 22%;
     padding: 32px 24px;
