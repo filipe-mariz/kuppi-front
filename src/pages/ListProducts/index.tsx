@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
-import { Container, Label } from './styles';
+import { Container, Label, SelectorDiv } from './styles';
 
 import Headers from "../../components/header";
-import SelectorPoducts from '../../components/itens'
 
 import api from '../../services/api'
+import Button from "../../components/Button";
+import SelectorPoducts from '../../components/itens'
 interface Products {
   name: string;
   price: number;
@@ -19,8 +20,6 @@ const ListPoducts = () => {
       <Container>
         <Headers />
         <Label><h1>Encontre um produto para você</h1></Label>
-        {}
-        <SelectorPoducts />
         <SelectorPoducts />
       </Container>
     </>

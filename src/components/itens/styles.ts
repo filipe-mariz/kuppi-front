@@ -11,7 +11,7 @@ justify-content: space-between;
 align-items: center;
 margin-top: 3%;
 margin-left: 14%;
-border: solid 0.5x;
+border: solid 0.5x; 
 border-color: #A9ABAE;
 box-shadow: 2.5px 5px 2.5px 2.5px #A9ABAE;
 .Name {
