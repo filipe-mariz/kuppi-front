@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const SelectorDiv = styled.label`
 position: relative;
 width: 60%;
-height: 500px;
+height: 550px;
 border-radius: 10px;
 display: flex;
 flex-direction: column;
