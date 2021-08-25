@@ -19,7 +19,7 @@ h1 {
   line-height: 24px;
   color: #039B89;
   margin-left: 6%;
-  margin-top: 10%;
+  margin-top: 1%;
 }
 `
 export const SelectorButton = styled.label`
@@ -40,7 +40,7 @@ box-shadow: 2.5px 5px 2.5px 2.5px #A9ABAE;
 background: #FFFFFF/* linear-gradient(0deg, #00B3FF,  #FFFFFF, #FFFFFF); */;
 .Name {
   color: #032C3E;
-  margin-top: 20px;
+  margin-top: 20%;
 }
 img {
   max-width:170px;

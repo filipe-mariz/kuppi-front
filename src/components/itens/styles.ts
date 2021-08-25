@@ -1,41 +1,47 @@
 import styled from "styled-components";
 
 export const SelectorDiv = styled.label`
-position: fixed;
-width: 15%;
-height: 50%;
-padding: 30px 24px;
+position: relative;
+width: 70%;
+height: 300px;
 border-radius: 10px;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
 align-items: center;
-margin-top: 15%;
-margin-left: 7%;
+margin-top: 3%;
+margin-left: 14%;
 border: solid 0.5x;
 border-color: #A9ABAE;
 box-shadow: 2.5px 5px 2.5px 2.5px #A9ABAE;
 .Name {
+  position: relative;
+  max-width: 60%;
+  position: relative;
   color: #032C3E;
-  margin-top: 20px;
+  margin-top: 1%;
 }
 .Price {
-  color: #022B0E;
-  margin-top: -100px;
+  position: relative;
+  color: #008A75;
+  top: -70%;
+  left: 40%;
 }
 img {
+  position: relative;
   max-width:170px;
   max-height:150px;
   width: auto;
   height: auto;
   margin-left: -0%;
-  margin-top: -70%;
+  top: 6%;
   border-radius: 10px;
 }
 button {
+  position: relative;
   width: 150px;
   height: 50px;
-  margin-top: -60%;
+  top: -10%;
   background: #06C9AB;
   color: white;
   border: none;
