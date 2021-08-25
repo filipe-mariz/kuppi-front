@@ -36,14 +36,14 @@ button {
   width: 150px;
   height: 50px;
   margin-top: -60%;
-  background: #ED3237;
+  background: #06C9AB;
   color: white;
   border: none;
   border-radius: 10px;
   box-shadow: 1px 1px 1px 1px #A9ABAE;
   &:hover,
   &:active {
-    background: #FA8285;
+    background: #2EFE69;
   }
 }
 

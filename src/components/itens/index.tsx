@@ -16,7 +16,10 @@ const SelectorPoducts = () => {
         <Button isSecondary={false} onClick={() => setDisplayModal(true)}>
           Detalhes
         </Button>
-        {displayModal ? <Modal modalDismiss={() => setDisplayModal(false)} /> : null}
+        {displayModal && (
+          <Modal modalDismiss={() => setDisplayModal(false)} />
+        )}
+        {/* {displayModal ? <Modal modalDismiss={() => setDisplayModal(false)} /> : null} */}
       </SelectorDiv>
     </>
   )

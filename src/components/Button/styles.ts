@@ -19,9 +19,7 @@ export const ButtonContainer = styled.button<ButtonContainerProps>`
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  /* line-height: 24px; */
   text-align: center;
-
   &[disabled] {
     background: #AFBCC3;
   }
