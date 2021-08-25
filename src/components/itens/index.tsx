@@ -32,10 +32,8 @@ const SelectorPoducts = () => {
 
   return (
     <>
+    {}
       <SelectorDiv>
-        <div>
-          {}
-        </div>
         <label className="Name">{product?.name}</label>
         <img className="kuppiImage" src={product?.photo_url} alt="kuppi" />
         <label className="Price">R${product?.price}</label>
